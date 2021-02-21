@@ -20,7 +20,7 @@ function App() {
 	return (
 		<loggedUserContext.Provider value={[currentUser, setCurrentUser]}>
 			<Router>
-				<Helmet>
+				<Helmet> 
 					<title>Journal</title>
 				</Helmet>
 				<Header></Header>
