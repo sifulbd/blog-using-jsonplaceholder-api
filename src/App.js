@@ -15,7 +15,7 @@ import Login from './Components/Login/Login';
 import PrivateRoute from './Components/Route/PrivateRoute';
 export const loggedUserContext = createContext();
 
-function App() {
+function App() { 
 	const [currentUser, setCurrentUser] = useState('');   
 	return (
 		<loggedUserContext.Provider value={[currentUser, setCurrentUser]}>
