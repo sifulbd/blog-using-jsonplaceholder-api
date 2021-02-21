@@ -1,0 +1,8 @@
+node_modules
+dist
+package-lock.json
+.idea
+config/app.json
+config/db.json
+*.log
+*.DS_Store

@@ -1,0 +1,60 @@
+.post-card .btn{
+    margin-right: 6px;
+}
+.post-card {
+    margin: 10px
+}
+.center {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.jmtb30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+ .jmt-20 {
+    margin-top: 20px;
+}
+å
+.jmb-20 {
+    margin-bottom: 20px;
+}
+
+.journalhr {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+}
+
+.jnMedia h6{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.jnMedia {
+    padding: 20px 30px;
+}
+.user-tbale-body tr:hover {
+    cursor: pointer;
+}
+.userMedia ul li{
+    list-style: none;
+}
+.userMedia ul {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.createPost-card {
+    padding: 30px 
+}
+.createPost-card .card-title  {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
