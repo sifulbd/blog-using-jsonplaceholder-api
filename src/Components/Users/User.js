@@ -22,7 +22,7 @@ const User = () => {
     const [posts, setPosts] = useState({});
     const history = useHistory();
     const [visiblePosts, setVisiblePosts] = useState(10);
-    const [currentUser, setCurrentUser] = useContext(loggedUserContext);
+    const [currentUser] = useContext(loggedUserContext);
     const [deleteSuccess, setDeleteSuccess] = useState(false);
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users")
